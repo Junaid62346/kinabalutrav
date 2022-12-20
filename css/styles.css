@@ -1,4 +1,21 @@
-.head {
-    background-color: rgb(249, 242, 234);
-    text-align: justify;
+@font-face {
+    font-family: "bound";
+    src: url(/fonts/Unbounded-VariableFont_wght.ttf);
+}
+
+body {
+    font-family: "bound";
+    background-image: url(/images/background.jpg);
+    color: white;
+    font-size: large;
+}
+/*body {
+    background-image: url(/images/background.jpg);
+} */
+
+.center {
+    margin: 30px;
+    background-color: rgba(32, 31, 31, 0.842);
+    border-radius: 10px;
+    
 }
